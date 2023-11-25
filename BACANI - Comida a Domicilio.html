@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACANI - Comida a Domicilio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1e5; /* Blanco */
+            color: #743c2b; /* Marrón oscuro */
+            min-height: 100vh;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #743c2b; /* Marrón oscuro */
+            color: #fff; /* Texto en blanco */
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #743c2b; /* Marrón oscuro */
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 1em;
+        }
+
+        /* Cambio de color al pasar el ratón */
+        nav a {
+            text-decoration: none;
+            color: #fff; /* Texto en blanco */
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f9cc9d; /* Cambia a amarillo al pasar el ratón */
+        }
+
+        section {
+            flex: 1;
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #743c2b; /* Marrón oscuro */
+            color: #fff; /* Texto en blanco */
+            text-align: center;
+            padding: 1em;
+            position: fixed; /* Cambiado de absolute a fixed */
+            bottom: 0;
+            width: 100%;
+        }
+
+        strong {
+            color: #743c2b; /* Marrón oscuro para strong */
+        }
+
+        em {
+            font-style: italic; /* Cursiva para em */
+            color: #d3866b; /* Naranja claro para em */
+        }
+
+        mark {
+            background-color: #f9cc9d; /* Resaltado amarillo para mark */
+        }
+
+        .resaltar {
+            font-weight: bold;
+            color: #743c2b; /* Marrón oscuro para span con clase .resaltar */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        audio, video {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <header> <!-- Espacio para el logo de la empresa --> <img src="logo_bacani.png"
+
+        alt="Logo BACANI">
+      <h1>BACANI</h1>
+      <p>Comida a Domicilio de <strong>Pollo</strong></p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#inicio" title="Descubre nuestra deliciosa oferta de inicio">Inicio</a></li>
+        <li><a href="C:%5CUsers%5Cestre%5COneDrive%5Cproyectofinal%5CMENU.html"
+
+            title="Explora nuestro variado menú">Menú</a></li>
+        <li><a href="#combos" title="Descubre nuestras increíbles combinaciones">Combos</a></li>
+        <li><a href="#contacto" title="Contáctanos para más información">Contacto</a></li>
+        <li><a href="#formulario" title="Completa nuestro formulario de contacto">Formulario</a></li>
+        <!-- Enlace al formulario -->
+        <li><a href="#descubre" title="Descubre nuestras exclusivas delicias">Descubre</a></li>
+        <li><a href="#ofertas" title="Ofertas especiales y promociones">Ofertas</a></li>
+        <li><a href="#testimonios" title="Testimonios de clientes satisfechos">Testimonios</a></li>
+        <li><a href="#historia" title="Nuestra historia y compromiso">Historia</a></li>
+      </ul>
+    </nav>
+    <section id="inicio">
+      <h2>Bienvenido a <em>BACANI</em></h2>
+      <p>Descubre la deliciosa experiencia de nuestra comida a domicilio con <strong>pollo
+          fresco</strong> y sabores irresistibles.</p>
+      <img src="imagen_local.jpg" alt="Pollo BACANI"> <audio controls="controls">
+        <source src="audio_local.mp3" type="audio/mp3"> Tu navegador no soporta
+        el elemento de audio. </audio> <video controls="controls"> <source src="https://www.example.com/video.mp4"
+
+          type="video/mp4"> Tu navegador no soporta el elemento de video. </video>
+      <p>Visita nuestro sitio web <a href="https://www.ejemplo.com" target="_blank"
+
+          rel="noopener noreferrer"><mark>aquí</mark></a>.</p>
+      <p>Explora nuestro <a href="#menu" class="resaltar">menú</a> para
+        descubrir más delicias.</p>
+    </section>
+    <footer>
+      <p>© 2023 BACANI - Comida a Domicilio de Pollo</p>
+    </footer>
+  </body>
+</html>
